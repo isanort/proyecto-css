@@ -7,6 +7,7 @@ input, button, textarea, select {
 body {
     background-color: #E3E5F5 ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 
 }
 .card {
@@ -27,4 +28,16 @@ form {
 .subtitle a{
     color: #4544B6;
     text-decoration: none;
+}
+.or {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+} 
+
+p span { 
+    background:#ffffff; 
+    padding:0 10px; 
 }
