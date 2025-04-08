@@ -14,8 +14,9 @@ body {
     height: 100vh;
 }
 .card {
-    background-color: antiquewhite;
+    background-color: aquamarine;
     width: 50dvw;
+    height: fit-content;
     justify-self: center;
     padding: 1rem;
     border-radius: 10px;
@@ -23,7 +24,7 @@ body {
 form {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    place-items: center center;
     background-color: aquamarine;
 }
 .subtitle {
@@ -46,14 +47,35 @@ p span {
     padding:0 10px; 
 }
 
-button {
-    height: 10px;
-      
+img { 
+    height: 30px;
+    vertical-align: middle;
 }
 
-img { height: 30px;
+button, input {
+    width: 100%;
+    display: block;
+}
+button, input {
+    border-radius: 5px;
+    height: 60px;
+    padding: 5px;
+}
+.social-login{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    text-align: center;
+
+}
+p {
+    display: inline-block;
 }
 
+.email-login {
+    width: 100%;
+
+}
 .forget-pass {
     text-decoration: none;
     color: #4544B6 ;
