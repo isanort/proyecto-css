@@ -8,13 +8,17 @@ body {
     background-color: #E3E5F5 ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 .card {
     background-color: antiquewhite;
     width: 50dvw;
     justify-self: center;
     padding: 1rem;
+    border-radius: 10px;
 }
 form {
     display: flex;
@@ -40,4 +44,17 @@ form {
 p span { 
     background:#ffffff; 
     padding:0 10px; 
+}
+
+button {
+    height: 10px;
+      
+}
+
+img { height: 30px;
+}
+
+.forget-pass {
+    text-decoration: none;
+    color: #4544B6 ;
 }
