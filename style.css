@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+input, button, textarea, select {
+    font: inherit;
+}
+body {
+    background-color: #E3E5F5 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.card {
+    background-color: antiquewhite;
+    width: 50dvw;
+    justify-self: center;
+    padding: 1rem;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aquamarine;
+}
+.subtitle {
+    font-weight:bolder;
+}
+.subtitle a{
+    color: #4544B6;
+    text-decoration: none;
+}
