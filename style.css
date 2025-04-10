@@ -5,6 +5,7 @@
 input, button, textarea, select {
     font: inherit;
 }
+
 body {
     background-color: #E3E5F5 ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -14,6 +15,8 @@ body {
     align-items: center;
     height: 100vh;
 }
+
+/* Divisions */
 .card {
     background-color: rgb(255, 255, 255);
     width: 450px;
@@ -23,18 +26,51 @@ body {
     border-radius: 15px;
     box-shadow: 10px 10px 10px rgb(190, 190, 190);
 }
+
 form {
     display: flex;
     flex-direction: column;
     place-items: center center;
 }
+
+/* Titles */
+h2 {
+    font-size: 2em;
+    margin: 0;
+    font-weight: 750;
+}
+
 .subtitle {
     font-weight: 900;
 }
+
 .subtitle a{
     color: #4544B6;
     text-decoration: none;
 }
+
+/*Login with socials*/
+.social-login{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    text-align: center;
+    font-weight: 900;
+    font-size: small;
+    gap: 4px;
+}
+
+/*Logos*/
+img { 
+    height: 30px;
+    vertical-align: middle;
+}
+
+p {
+    display: inline-block;
+}
+
+/* Divider */
 .or {
     width: 100%; 
     text-align: center; 
@@ -44,16 +80,40 @@ form {
     font-weight: 900;
 } 
 
+/* Horizontal line */
 p span { 
     background:#ffffff; 
     padding:0 10px; 
 }
 
-img { 
-    height: 30px;
-    vertical-align: middle;
+/* Login with email */
+.email-login {
+    width: 100%;
+    color: rgb(172, 169, 169);
 }
 
+label{
+    font-weight: 900;
+}
+
+/* Login button */
+.cta-btn {
+    background-color: #4544B6;
+    color: white;
+}
+
+/* Forget password button */
+.forget-pass {
+    text-decoration: none;
+    color: #4544B6;
+    font-weight: 600;
+}
+
+.forget-pass{
+    padding: 5px;
+}
+
+/* Buttons and inputs */
 button, input {
     width: 100%;
     display: block;
@@ -63,59 +123,15 @@ button, input {
     border-radius: 10px; 
     border: 1.5px solid lightgray;
     background-color: rgb(255, 255, 255);
-
 }
 
-button:hover, input:focus {
+button:focus, input:focus {
     border: 2.5px solid #4544B6;
     outline: 0;
     outline: none;
 }
 
-.social-login{
-    width: 100%;
-    display: grid;
-    grid-template-columns: 5fr 1fr;
-    text-align: center;
-    font-weight: 900;
-    font-size: small;
-    gap: 4px;
-
-}
-p {
-    display: inline-block;
-}
-
-.email-login {
-    width: 100%;
-    color: rgb(172, 169, 169);
-
-}
-.forget-pass {
-    text-decoration: none;
-    color: #4544B6 ;
-    font-weight: 600;
-}
-.cta-btn {
-    background-color: #4544B6 ;
-    color: white;
-}
-
-label{
-    font-weight: 900;
-}
-
-h2 {
-    font-size: 2em;
-    margin: 0;
-    font-weight: 750;
-}
-
 input{
     padding: 1em;
     font-size: small;
-}
-
-.forget-pass{
-    padding: 5px;
 }
